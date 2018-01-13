@@ -1,0 +1,10 @@
+mpirun -np 1 ./documentSearch 4 4 input_1.txt query_1.txt
+Sequential Part: 0.000047 ms
+Parallel Part: 0.000057 ms
+Total time: 0.000104 ms
+Top k = 4 ids:
+208
+169
+142
+174
+
